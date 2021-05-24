@@ -49,5 +49,5 @@ jobs:
       with:
         app-name: 'siacapp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4ff7227a8f82428e8e730cae7fd63c1f }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_54a3427cf8d64b0894dd5b7c45835d21 }}
         package: '*.war'
