@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<avaliacao>
+	<competencia titulo="Trabalho em Equipe">
+		<questao>Respeita o ponto de vista do outro, na equipe de trabalho.</questao>
+		<questao>Estabelece relações de colaboração, contribuindo para um ambiente participativo.</questao>
+		<questao>Compromete-se com os objetivos e desafios da equipe.</questao>
+		<questao>Pondera críticas e sugestões de colegas de trabalho.</questao>
+	</competencia>
+	<competencia titulo="Foco no Resultado">
+		<questao>Executa suas atividades em função das metas definidas.</questao>
+		<questao>Age com persistência/determinação para alcançar as metas/objetivos.</questao>
+		<questao>Realiza suas metas em conformidade com os critérios de resultado estabelecido.</questao>
+		<questao>Contribui para melhoria do alcance dos resultados.</questao>
+	</competencia>
+	<competencia titulo="Flexibilidade">
+		<questao>Assume novos papéis na sua equipe de trabalho, quando necessário.</questao>
+		<questao>Contribui para o cumprimento de metas de outra equipe de trabalho.</questao>
+		<questao>Adapta-se a mudanças exigidas pelo trabalho.</questao>
+		<questao>Realiza atividades fora de sua rotina de trabalho que contribuam para a obtenção de melhoria dos resultados.</questao>
+	</competencia>
+	
+	<competencia titulo="Gestão do Conhecimento">
+		<questao>Compartilha  seus conhecimentos com a equipe de trabalho.</questao>
+		<questao>Utiliza seus conhecimentos para contribuir com o alcance das metas da equipe.</questao>
+		<questao>Atualiza-se sobre os conhecimentos necessários ao desenvolvimento do seu trabalho.</questao>
+		<questao>Propõe novas formas de realização do trabalho.</questao>
+	</competencia>
+	
+	<competencia titulo="Visão Integrada de Processos">
+		<questao>Identifica os pontos de interseção entre os processos nos quais atua.</questao>
+		<questao>Propõe soluções criativas para integração dos processos.</questao>
+		<questao>Atua de forma a integrar os diversos processos organizacionais nos quais está inserido.</questao>
+		<questao>Atua observando o impacto de suas ações nos processos relacionados a sua área.</questao>
+	</competencia>
+	
+</avaliacao>

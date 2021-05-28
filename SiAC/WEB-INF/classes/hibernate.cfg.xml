@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+	<hibernate-configuration>
+	<session-factory>
+		<property name="connection.driver_class">
+			com.mysql.jdbc.Driver
+		</property>		
+		
+		<property name="connection.url">
+			jdbc:mysql://localhost/siac
+		</property>		
+		
+		<property name="dialect">
+			org.hibernate.dialect.MySQL5Dialect
+		</property>
+		
+		<property name="connection.username">
+			intranet			
+		</property>
+		<property name="connection.password">#intranet#2011#</property>		
+		
+		<!-- Imprime os SQLs na saida padrao -->
+		<property name="show_sql">false</property>
+		<property name="format_sql">true</property>		
+		
+		
+		<!-- Pool de conexoes -->
+		<property name="hibernate.c3p0.min_size">2</property>
+		<property name="hibernate.c3p0.max_size">30</property>
+		<property name="hibernate.c3p0.timeout">300</property>
+		<property name="hibernate.c3p0.max_statements">200</property>
+		<property name="hibernate.c3p0.idle_test_period">3000</property>
+		
+		<mapping class="com.embrapa.siac.dominio.Empregado"/>
+		<mapping class="com.embrapa.siac.dominio.Processo"/>
+		<mapping class="com.embrapa.siac.dominio.Formula"/>
+		<mapping class="com.embrapa.siac.dominio.Avaliacao"/>
+		<mapping class="com.embrapa.siac.dominio.Questao"/>
+		<mapping class="com.embrapa.siac.dominio.Competencia"/>
+		<mapping class="com.embrapa.siac.dominio.Convite"/>
+		<mapping class="com.embrapa.siac.dominio.Permissao_Empregado"/>
+		<mapping class="com.embrapa.siac.dominio.Resultado"/>
+		<mapping class="com.embrapa.siac.dominio.Log"/>
+		<mapping class="com.embrapa.siac.dominio.Evento"/>
+		
+		
+		</session-factory>
+	</hibernate-configuration>

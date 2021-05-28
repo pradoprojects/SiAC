@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<faces-config
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd"
+    version="1.2">
+
+
+	<application>
+		<message-bundle>
+			com.embrapa.siac.recursos.messages
+		</message-bundle>
+	</application>
+	
+
+	
+	<managed-bean>
+		<managed-bean-name>cadastroProcessoBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.CadastroProcessoBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>consultaProcessoBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.ConsultaProcessoBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>consultaAvaliacaoBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.ConsultaAvaliacaoBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>preencheAvaliacaoBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.PreencheAvaliacaoBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>envioConviteBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.EnvioConviteBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>consultaConvitesBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.ConsultaConvitesBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>cadastroEmpregadoBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.CadastroEmpregadoBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>consultaEmpregadoBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.ConsultaEmpregadoBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>cadastraReavaliacaoBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.CadastraReavaliacaoBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>consultaUsuarioBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.ConsultaUsuarioBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>consultaResultadoBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.ConsultaResultadoBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>alteraSenhaBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.AlteraSenhaBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>consultaRelatorioBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.ConsultaRelatorioBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>consultaLogBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.ConsultaLogBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>ajusteClientesBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.ajusteClientesBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>carregaEmpregados</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.CarregaEmpregados</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>carregaEmpregadosBean</managed-bean-name>
+		<managed-bean-class>com.embrapa.siac.visao.CarregaEmpregadosBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	
+	<navigation-rule>
+		<navigation-case>
+			<from-outcome>cadastroConta</from-outcome>
+			<to-view-id>/contas/cadastroConta.jsp</to-view-id>
+		</navigation-case>
+
+		<navigation-case>
+			<from-outcome>consultaRelatorio</from-outcome>
+			<to-view-id>/contas/consultaRelatorio.jsp</to-view-id>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>cadastroEmpregado</from-outcome>
+			<to-view-id>/contas/cadastroEmpregado.jsp</to-view-id>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>consultaEmpregado</from-outcome>
+			<to-view-id>/contas/consultaEmpregado.jsp</to-view-id>
+		</navigation-case>
+		
+		
+		<navigation-case>
+			<from-outcome>consultaConta</from-outcome>
+			<to-view-id>/contas/consultaConta.jsp</to-view-id>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>consultaResultado</from-outcome>
+			<to-view-id>/contas/consultaResultado.jsp</to-view-id>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>cadastroProcesso</from-outcome>
+			<to-view-id>/contas/cadastroProcesso.jsp</to-view-id>
+			<redirect/>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>consultaProcesso</from-outcome>
+			<to-view-id>/contas/consultaProcesso.jsp</to-view-id>
+			<redirect/>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>preencheAvaliacao</from-outcome>
+			<to-view-id>/contas/preencheAvaliacao.jsp</to-view-id>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>alteraSenha</from-outcome>
+			<to-view-id>/contas/alteraSenha.jsp</to-view-id>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>consultaAvaliacao</from-outcome>
+			<to-view-id>/contas/consultaAvaliacao.jsp</to-view-id>
+		</navigation-case>
+
+		<navigation-case>
+			<from-outcome>envioConvite</from-outcome>
+			<to-view-id>/contas/enviarConvite.jsp</to-view-id>
+		</navigation-case>
+		
+		
+		<navigation-case>
+			<from-outcome>consultaConvitesRecebidos</from-outcome>
+			<to-view-id>/contas/consultaConvitesRecebidos.jsp</to-view-id>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>consultaConvitesEnviados</from-outcome>
+			<to-view-id>/contas/consultaConvitesEnviados.jsp</to-view-id>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>menu</from-outcome>
+			<to-view-id>/contas/menu.jsp</to-view-id>
+			<redirect/>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>consultaLog</from-outcome>
+			<to-view-id>/contas/consultaLog.jsp</to-view-id>
+			<redirect/>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>ajustaClientes</from-outcome>
+			<to-view-id>/contas/ajustaClientes.jsp</to-view-id>
+			<redirect/>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>ajustaSupervisores</from-outcome>
+			<to-view-id>/contas/ajustaSupervisores.jsp</to-view-id>
+			<redirect/>
+		</navigation-case>
+		
+		<navigation-case>
+			<from-outcome>carregaEmpregado</from-outcome>
+			<to-view-id>/contas/carregaEmpregado.jsp</to-view-id>
+			<redirect/>
+		</navigation-case>
+		
+	</navigation-rule>
+	
+	<converter>
+		<converter-for-class>java.lang.Enum</converter-for-class>
+		<converter-class>com.embrapa.siac.conversores.EnumConverter</converter-class>
+	</converter>
+
+	<converter>
+		<converter-for-class>com.embrapa.siac.dominio.Formula</converter-for-class>
+		<converter-class>com.embrapa.siac.conversores.FormulaConverter</converter-class>
+	</converter>
+	
+	
+	
+
+
+	<converter>
+		<converter-for-class>com.embrapa.siac.dominio.Empregado</converter-for-class>
+		<converter-class>com.embrapa.siac.conversores.EmpregadoConverter</converter-class>
+	</converter>
+
+</faces-config>
