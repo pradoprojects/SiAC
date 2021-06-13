@@ -12,7 +12,7 @@ I tried to make the directories name self-explanatory but I'll list a brief desc
 
 * _manuals_: the documentation generated for the users of the system.
 
-* _sql_: the SQL script file to created and populate the database for demo purposes.
+* _sql_: the SQL script file to create and populate the database for demo purposes.
 
 * _war_: a war file generated from Eclipse to deploy the SiAC in the server (database username and password must be configured properly in the src/hibernate.cfg and tomcat server.xml files).
 
