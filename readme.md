@@ -1,8 +1,8 @@
 # ReadMe
 
-Welcome to the SiAC project. This project was developed back in 2011. I developed the system using JSF + plain Javascript + Hibernate + MySQL.
+Welcome to the SiAC project. I conducted this project back in 2011. The system developed in the project was written in JSF + Vanilla Javascript + Hibernate + MySQL.
 
-Its purpose was to help automate the process of evaluation between employees of a corporation that I worked for.
+The purpose of the system was to help automate the process of evaluation between employees of a corporation that I worked for, in the Agricultural Research field.
 
 I tried to make the directories name self-explanatory but I'll list a brief description here of what each of them contains:
 
