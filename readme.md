@@ -1,6 +1,6 @@
 # ReadMe
 
-Welcome to the SiAC project. I conducted this project back in 2011. The system developed in the project was written in JSF + Vanilla Javascript + Hibernate + MySQL.
+Welcome to the SiAC project. I conducted this project back in 2011. I developed the system in JSF + Vanilla Javascript + Hibernate + MySQL. I also designed UI of the system, including it's Logo, icons, and buttons (Just a quick note to put things in perspective: back in 2011, adaptative and responsive interfaces were still in their infancy... Given the short time I had to deliver the entire system, I opted for a more straightforward and concise approach in the UI).
 
 The purpose of the system was to help automate the process of evaluation between employees of a corporation that I worked for, in the Agricultural Research field.
 
@@ -16,6 +16,16 @@ I tried to make the directories name self-explanatory but I'll list a brief desc
 
 * _war_: a war file generated from Eclipse to deploy the SiAC in the server (database username and password must be configured properly in the src/hibernate.cfg and tomcat server.xml files).
 
+
+You can have a taste of the system in the following link:
+
+http://52.146.2.13:8080/SiAC/faces/contas/menu.jsp
+
+Credentials of a regular employee (no admin privilege in the system)
+
+> Matrícula (enrollment number): 010101
+
+> Senha (password): 010101
 
 
 
