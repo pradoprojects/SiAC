@@ -1,6 +1,6 @@
 # ReadMe
 
-Welcome to the SiAC project. I conducted this project back in 2011. I developed the system in JSF + Vanilla Javascript + Hibernate + MySQL. I also designed UI of the system, including it's Logo, icons, and buttons (Just a quick note to put things in perspective: back in 2011, adaptative and responsive interfaces were still in their infancy... Given the short time I had to deliver the entire system, I opted for a more straightforward and concise approach in the UI).
+Welcome to the SiAC project. I conducted this project back in 2011. I developed the system in JSF + Vanilla Javascript + Hibernate + MySQL. I also designed the UI of the system, including its Logo, icons, and buttons (Just a quick note to put things in perspective: back in 2011, adaptative and responsive interfaces were still in their infancy... Given the short time I had to release the entire system -- 11 months from scratch to end -- I opted for a more straightforward and concise approach in the UI).
 
 The purpose of the system was to help automate the process of evaluation between employees of a corporation that I worked for, in the Agricultural Research field.
 
