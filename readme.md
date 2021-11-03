@@ -22,7 +22,7 @@ You can have a taste of the system in the following link:
 
 http://52.146.2.13:8080/SiAC/faces/contas/menu.jsp
 
-Credentials of a fictional employee (Employee X) having to evaluate another fictional employee (Employee A)
+Credentials of a fictional employee (Employee X) having to evaluate another fictional employee (Empregado A)
 
 > Matrícula (enrollment number): 010101
 
