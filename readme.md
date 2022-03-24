@@ -1,10 +1,16 @@
 # 👩‍🌾🧪👨‍🌾 | SiAC project
-## SiAC - _System for Assessment of Competencies_
+
 <br/>
 <div align="center">                                                             
   <img src="./siaclogo.jpg" alt="SiAC Logo">
 </div>  
 <br/>
+
+## SiAC - _System for Assessment of Competencies_
+
+<section>
+<div align="justify">
+  
 Welcome to the SiAC project. I conducted this project back in 2011. I developed the system in JSF + Vanilla Javascript + Hibernate + MySQL. 
 
 I also designed the UI of the system, including its logo, icons, and buttons. A quick note to put things in perspective: back in 2011, smartphones, adaptative and responsive interfaces were still in their infancy... Given the short time I had to release the entire system -- 11 months from scratch to end -- I opted for a more straightforward and concise approach in the UI.
@@ -22,6 +28,8 @@ I tried to make the directories name self-explanatory, but I am listing a brief 
 * _sql_: the SQL script file to create and populate the database for demo purposes.
 
 * _war_: a war file generated from Eclipse to deploy the SiAC in the server (database username and password must be configured properly in the src/hibernate.cfg and tomcat server.xml files).
+  
+  
 
 
 You can have a taste of the system in the following link:
@@ -34,6 +42,8 @@ Credentials of a fictional employee (Employee X) without admin privilege in the 
 
 > Senha (password): 010101
 
+<div>
+</section>
 
 
 
