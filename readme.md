@@ -19,8 +19,6 @@ I tried to make the directories name self-explanatory, but I am listing a brief 
 
 * _dev_docs_: the documentation generated for development purposes. It includes files such as the questionnaire used to elicit the requirements, the vision document, class diagrams, etc.
 
-* 
-
 * _manuals_: the documentation generated for the users of the system.
 
 * _sql_: the SQL script file to create and populate the database for demo purposes.
