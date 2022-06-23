@@ -26,7 +26,7 @@ I tried to make the directories name self-explanatory, but I am listing a brief 
 * _war_: a war file generated from Eclipse to deploy the SiAC in the server (database username and password must be configured properly in the src/hibernate.cfg and tomcat server.xml files).
 
 <h2> Try it! </h2>
-You can have a taste of the system in the following link:
+You can take a look at a beta release of the system in the following link:
 
 http://52.146.2.13:8080/SiAC/faces/contas/menu.jsp
 
